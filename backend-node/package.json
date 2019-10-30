@@ -1,0 +1,21 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "A small HTTP API that is being used by a React frontend to expose a search for Github repositories.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fab <faabsen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
